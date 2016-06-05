@@ -1,0 +1,399 @@
+If the previous superball example (elastic collision) is accurate, we can't just look at inertia to define the type, we have to consider the change in relative speeds. (Also, in theory, not moving would require infinite inertia. In reality, we just can't measure the movement.)
+
+
+Why is this considered a separate source energy and not just a part of solar energy? Is it because the other forms cannot be stored at least not without the release of energy?
+
+By this definition, is it possible for the center of mass to remain stationary but for every other object to move? If for example, objects were moving outward in a circle?
+
+Yep. Also, the total kinetic energy of a system also includes the kinetic energy that is converted to other forms (i.e. internal energy). Since the change in kinetic energy of the center of mass is independent of the Kconv term, we know that the change in kinetic energy of the center of mass cannot be equal to the work done on the system.
+
+I think it is possible to also calculate the work done by all of the particles and add them up, but that's probably less ideal than calculating one magnitude of work.
+
+
+D:\Installations\Anaconda3\python.exe "D:/Dropbox (BGU)/Eran Work/Nota-Bene/document comment similarity/cognitiveClassifier.py"
+I think it is possible to also calculate the work done by all of the particles and add them up, but that's probably less ideal than calculating one magnitude of work.
+FAE8EEE408>)
+I think it is possible to also calculate the work done by all of the particles and add them up, but that's probably less ideal than calculating one magnitude of work.
+FAE97C0508>)
+Since the unit of power is in Watt (joules/sec), that means that the integral of power over time is work that is being performed right? 
+FAE97C0648>)
+Equation 9.1 equated (delta)E with work. Is there any reason why we've reverted back to using the notation (delta)E here? It fits nicely into the instantaneous power equation 9.30 below, but are there any other reasons/instances we would need to use one notation and not the other?
+FAE97B4C08>)
+Equation 9.1 equated (delta)E with work. Is there any reason why we've reverted back to using the notation (delta)E here? It fits nicely into the instantaneous power equation 9.30 below, but are there any other reasons/instances we would need to use one notation and not the other?
+FAE97F7188>)
+Yes, this is certainly interesting to think about. Clearly the rate of change is an important theme in physics. So if two hikers are climbing up a mountain but one reaches the top faster, the faster one actually has more power (since he took less time) even though both have done the same amount of work.
+FAE9805148>)
+I think in this case you can think of the way in which you define your system. If there is a positive addition of power to one system, if you then define part of the environment as a new system, there must be a loss of power here, because energy is conserved in the universe. I'm struggling to think of a real world example but possibly one could be a spinning fan that decreases in rotational speed due to a wind working against its blades.
+FAE97E8888>)
+I think in this case you can think of the way in which you define your system. If there is a positive addition of power to one system, if you then define part of the environment as a new system, there must be a loss of power here, because energy is conserved in the universe. I'm struggling to think of a real world example but possibly one could be a spinning fan that decreases in rotational speed due to a wind working against its blades.
+FAE97E8608>)
+I think in this case you can think of the way in which you define your system. If there is a positive addition of power to one system, if you then define part of the environment as a new system, there must be a loss of power here, because energy is conserved in the universe. I'm struggling to think of a real world example but possibly one could be a spinning fan that decreases in rotational speed due to a wind working against its blades.
+FAE97E8EC8>)
+So when we read that an electrical appliance has x watts, the manufacturer is saying that the appliance does work on its environment at a rate of x joules/second? I would be interested in how that value would be computed for a light bulb. It seems like it would be difficult to account for the 4 different types of energy here.
+FAE97D10C8>)
+This is because power simply refers to work done over time - the amount of "work" or "energy" doesn't depend on the object but rather the source. For example, if you push on something force of 20 N, it doesn't matter if you push on the wall, the floor, or a giant box, the amount of force you're exerting is the same.
+FAE97DD7C8>)
+This is because power simply refers to work done over time - the amount of "work" or "energy" doesn't depend on the object but rather the source. For example, if you push on something force of 20 N, it doesn't matter if you push on the wall, the floor, or a giant box, the amount of force you're exerting is the same.
+FAE97DD4C8>)
+This doesn't make any sense to me - how can we possibly be this specific? Delivering 75 W of power over what time interval? With what energy input? When would you need to stop and eat? Sleep? Is there a difference in the amount of energy I could deliver doing different tasks? 
+
+Also, why does this concept matter? It seems so arbitrary as to be only a piece of trivia unless you're actually asked to estimate how much snow an average person could shovel. 
+FAE97E8A48>)
+Records watsoned: 650
+P = deltaEth/deltat = -(Kf-Ki)/(tf-ti) = -(0-1/2*0.5(1)^2)/0.5 = 0.25 W
+FAE97F7708>)
+I struggled with this as well, and no it's not intuitive. A helpful example is throwing a ball in a plane moving at some constant velocity x.  If you were on that plane, and threw a ball straight in the air, it would fall straight down, because you are in the plane's reference frame. Now, if you were somehow on the wing of the plane and threw the ball up, it would immediately fly back due to the large amount of wind and air resistance. 
+
+In essence, these examples are assuming that there is no air resistance, and thus the ball will continue going at the same velocity when dropped or launched vertically.
+FAE98D21C8>)
+Can someone possibly explain all of these equations in a simpler way? I have such a hard time translating from equation to meaning rather than the other way. 
+FAE98C7CC8>)
+Could it be based on the fact they want to show time passing as travel on the horizontal axis? The proposed matches the earth's reference frame well this way.  
+FAE98C7208>)
+Why is the ball's velocity in the horizontal direction constant?
+FAE8EEE8C8>)
+I would agree. At first instinct, I wanted to try and disprove this by saying that it slows as it reaches its peak height, but I realized that I was considering the y component. Also, the only force acting on it and preventing it from moving further in the x direction is the fact that gravity pulls it to the ground.
+FAE98C1348>)
+Records watsoned: 700
+I know that the normal force does no work on the block, but why doesn't the y component of gravity do any work on the block? After all the block is moving down the incline so I believe that there is force displacement in the y direction...
+FAE98DE608>)
+I think that is the definition, yes. It is helpful to note however that these two facts work together. It isn't just an issue with the equation for work, but a way of remembering that the energy in the direction perpendicular to force and displacement cannot contain work.
+FAE97B6208>)
+Multiplying two vectors together to get a scalar (does not include direction!) multiplied by a trigonometric function (which indicates direction). 
+FAE97F7988>)
+Multiplying two vectors together to get a scalar (does not include direction!) multiplied by a trigonometric function (which indicates direction). 
+FAE98B7548>)
+I don't think I fully understand this figure. I see how we mathematically find the answer to a scalar product of two vectors but how does this figure demonstrate the answer? 
+FAE98B5A48>)
+So the way I understand it is that if you had a coefficient for kinetic friction that was higher than that for static friction, once an object started moving it would immediately stop. This is because once you overcame the original static friction, there would be a a larger kinetic friction coefficient that would cause the object to immediately stop and go back to a static state. So this process would be cyclical and you could never move the object.
+FAE97B4508>)
+So the way I understand it is that if you had a coefficient for kinetic friction that was higher than that for static friction, once an object started moving it would immediately stop. This is because once you overcame the original static friction, there would be a a larger kinetic friction coefficient that would cause the object to immediately stop and go back to a static state. So this process would be cyclical and you could never move the object.
+FAE980D888>)
+Ah ha.  This answers an earlier question.  It makes sense that kinetic friction has to be smaller than static friction.  If you think of the file cabinet example, it usually takes a good shove to get a static object moving, then once it's moving, the job becomes easier. 
+FAE97D1708>)
+Ah ha.  This answers an earlier question.  It makes sense that kinetic friction has to be smaller than static friction.  If you think of the file cabinet example, it usually takes a good shove to get a static object moving, then once it's moving, the job becomes easier. 
+FAE97B4508>)
+Ah ha.  This answers an earlier question.  It makes sense that kinetic friction has to be smaller than static friction.  If you think of the file cabinet example, it usually takes a good shove to get a static object moving, then once it's moving, the job becomes easier. 
+FAE98C7488>)
+Ah ha.  This answers an earlier question.  It makes sense that kinetic friction has to be smaller than static friction.  If you think of the file cabinet example, it usually takes a good shove to get a static object moving, then once it's moving, the job becomes easier. 
+FAE97D1708>)
+Aren't these paths still parallel though?
+FAE98C1048>)
+Records watsoned: 750
+Ya I think when we think about rigid objects versus non-rigid objects comes down to the ability to deform. If an object experiences deformation when a force is exerted on it... it cannot be considered a rigid object. I think the last response put it well in that all objects are deformed to some extent so not object is truly object. We are speaking of ideally rigid objects who experience minimal deformation to an extent that it can be neglected. 
+FAE97B4988>)
+I think here they are excluding the axis since it is not physically touching the block.
+FAE98C3D08>)
+I think here they are excluding the axis since it is not physically touching the block.
+FAE97DD548>)
+It seems that revolving and rotating are subjective to some extent. We say that the block is revolving around the axis of rotation, but I believe we could also say that the outside of the turn table is revolving around the axis. We could also say the turn table as a whole is rotating around the axis of rotation. 
+FAE98245C8>)
+It seems that revolving and rotating are subjective to some extent. We say that the block is revolving around the axis of rotation, but I believe we could also say that the outside of the turn table is revolving around the axis. We could also say the turn table as a whole is rotating around the axis of rotation. 
+FAE9805CC8>)
+Makes sense.  Earth rotates on an axis, but it revolves around the sun.
+FAE98C3FC8>)
+Makes sense.  Earth rotates on an axis, but it revolves around the sun.
+FAE97B4088>)
+This is an awesome way to remember the difference! I also thought of it as an object itself can rotate 360 degrees, but an object can revolve 360 degrees around something without ever having rotated on its own (like the block on the moving disk). 
+FAE982E348>)
+I think your latter thought is correct. The textbook seems to use external and internal centers/axises to differentiate the two, so my guess would be that if the axis of rotation is external (i.e. not part of the object) then it revolves, and if the axis of ration is internal, then it rotates. You can also think about how Earth revolves around the sun, but it rotates on its axis.
+FAE98C7908>)
+Good question. It seems like it would take a tangential force direction.A path parallel to the direction it is moving in.
+FAE97F7E08>)
+Good question. It seems like it would take a tangential force direction.A path parallel to the direction it is moving in.
+FAE97F7488>)
+They are saying that the axis of rotation is internal with respect to the "rotating" turntable, and external with respect to the "revolving" blocks.  I am confused about this, though, because the block and turntable appear to be outside of the axis of rotation.  What defines the blocks as being external to the axis and the turntable internal to the axis? 
+FAE97D9F88>)
+For problems considering trajectory that we have done before, why would this not be considered translational and rotational motion? Is this simply because a ball following trajectory motion is circular? 
+FAE98C3148>)
+I may be wrong but I think this is simply the fact that a simply rotating object has no velocity moving in or out of the circle but only has velocity moving around the circle's center. 
+FAE97E8A08>)
+There is a great table on page 43 that has all of the rotational motion equations (acceleration , velocity, etc). 
+FAE97B4148>)
+This is intuitive because it's the circumference divided by velocity, which is the same as distance over time equaling velocity (if you manipulate the equation). 
+FAE9805E88>)
+Records watsoned: 800
+From my understanding, only the tangential acceleration affects the speed of the object. The radial acceleration is simply a result of the changing direction of the velocity as the point moves about the circle (although the magnitude of the radial acceleration would increase as well when the speed increases)
+FAE98C3DC8>)
+In my opinion, this is one of the most important statements so far in this chapter. It directly shows us that the difference between some translational motion quantity and its respective rotational motion quantity is a consequence of the length of the radius, r. This is further corroborated from the earlier diagrams that showed how the translational quantity values are higher as you increase the radius.
+FAE98A0D48>)
+The SI unit of rotational inertia (I) is kgm^2, and the SI unit of 'w' is 1/s, which would give angular momentum (L=Iw) the units of kgm^2/s. Hope that helps clarify! They explained the units more on page 44.
+FAE98D2308>)
+I think so, but also I think the point of angular momentum is that there is no torque from the external environment. 
+FAE9824FC8>)
+This is referring to the distance d away from the center of mass.
+FAE97DDE08>)
+It seems here that we are adding inertia that ends up being greater than the actual inertia of the object. Is there therefore a non-linear relationship between an object's actual inertia and their rotational inertia?
+FAE8F6CB88>)
+Records watsoned: 850
+I think so, but maybe not in the way one would think. During flight, the front of the frisbee is experiencing lift, a force that wants to flip the frisbee over. So this lift force is trying to flip the frisbee over at the front of the frisbee relative to its center, which I think could be seen as a type of torque. However, this is counteracted by the spinning motion which causes the lift force to be exerted on all parts of the frisbee. So a frisbee not spinning would flip over and stop flight due to torque.
+FAE989E8C8>)
+It seems that from the definition provided, free rotation is the rotation of objects that are not constrained by physical axis or other external constraints, thus this description virtually applies to almost all forms of rotation that occurs in the natural world. Because most things in nature do not perfectly revolve around an axis or something of that type, it seems that most objects in our natural world (non-man made) would be classified as free motion. Also, many man made objects also really on free rotation for their own motions as well, for example the frisbee and pencil example.  
+FAE98B7248>)
+Without the axis so to speak isn't a tangential force in one instance not necessarily a tangential force in another instance? How does torque work in this situation?
+FAE987EA48>)
+To my understanding free rotation is true for objects with NO physical axis. In your example although you are spinning in smaller circles your rotation is still based off of an axis therefore this wouldn't be an example of free rotation.
+FAE987E1C8>)
+To my understanding free rotation is true for objects with NO physical axis. In your example although you are spinning in smaller circles your rotation is still based off of an axis therefore this wouldn't be an example of free rotation.
+FAE9900508>)
+I wonder not only about what point or axis these freely rotating objects rotate, but also whether this point or axis must be constant or can be changing. 
+FAE98AB688>)
+The white dot can correspond to the center of mass -- it can also correspond to a center "axis" about the wrench's rotation. It connects into a straight line, along the central motion of the wrench
+FAE97B4808>)
+Does the center of mass always act like a point or an object not rotating? In figure 12.9 it moves just like what wee been learning from objects without rotation, so is this always the case, or just in specific cases?
+FAE8F33388>)
+Does the center of mass always act like a point or an object not rotating? In figure 12.9 it moves just like what wee been learning from objects without rotation, so is this always the case, or just in specific cases?
+FAE98F1288>)
+I agree with both of you but through repeated experiments of flicking objects on my desk, I wonder fi you have to add the stipulation that the object has to be uniform enough that other aspects of its shape do not interfere with rotation about its center of mass.
+FAE98C1A08>)
+I agree with both of you but through repeated experiments of flicking objects on my desk, I wonder fi you have to add the stipulation that the object has to be uniform enough that other aspects of its shape do not interfere with rotation about its center of mass.
+FAE98C3FC8>)
+I agree with both of you but through repeated experiments of flicking objects on my desk, I wonder fi you have to add the stipulation that the object has to be uniform enough that other aspects of its shape do not interfere with rotation about its center of mass.
+FAE97D1B08>)
+I would say that a) yes, because it is moving in space, so there has to be a sum that represent the direction and magnitude of the movement, and b) no, because the shaft is doing work on it (and there's actually a motor as well).
+FAE97B6A48>)
+This is a great question! In general, how much do translational and rotational quantities affect one other? And are there any quantitative/formulaic representatives of this? We saw one equation relating tangential acceleration and rotational acceleration.
+FAE97E8588>)
+Why are the motions independent of each other for forces exerted on freely rotating objects that cause both translational and rotational motion? Wouldn't they have to be connected?
+FAE98B74C8>)
+Isn't this only true in ideal settings? If you throw a frisbie with little spin, air resistance will hit one section with more force than another, causing it to wobble and dive.
+FAE97E8BC8>)
+Records watsoned: 900
+Makes sense that a rolling ball would have to rotate around its geometric center. Also I predict that one of the torques on the ball would be the force of friction preventing the ball from slipping along the surface.
+FAE987E908>)
+I agree with your point, I think that the translational motion described is due to friction.
+FAE8EBA288>)
+This makes sense because we are essentially multiplying the speed of rotation by the distance of each rotation.
+FAE989E048>)
+This goes back to my question about a rotating center of mass if we changed the wheels on a crate to rotating wheels.  The center of mass can change based on the rotation.  also, this goes back to the idea of choosing the positive direction so the rotational motion matches the change in position.
+FAE98B5EC8>)
+IN the condition of a rolling motion without slipping, if it where to slip would this result in the speeding up of the object? or how would the slipping effect the object?
+FAE98F1F08>)
+Slipping would temporarily stop the rotational motion, but I'm not actually sure how it would affect the speed. Good question...
+FAE989EFC8>)
+Why are the frisbee and the wheels different in terms of their relationships of rotational speed to translational speed?
+FAE98ABF48>)
+Why are the frisbee and the wheels different in terms of their relationships of rotational speed to translational speed?
+FAE98CDD48>)
+I had to read this a couple of times to understand the meaning of it, however it makes sense. Consider the perpendicular forces of friction on a surface versus the force of gravity. The parallelogram defined by these forces would equal a square, and as we know the area of a square equals the width times the height. Thus, the area of the parallelogram defined by these two forces would be the product of these two forces that make up the width and the height of the object.
+FAE8F6C048>)
+Is it because it would be redundant and the force wouldn't haven an effect?
+FAE9900E48>)
+The torque on an object can be defined as the cross product T = r * F, where r is the object's position vector relative to the fulcrum, and F is the force acting on the particle. The magnitude of the torque is given by T = r * F sin?, where r is the distance from the axis of rotation to the object, F is the magnitude of the force applied, and ? is the angle between the position and force vectors. Therefore, it follows that the torque vector is perpendicular to both the position and force vectors. 
+FAE982E5C8>)
+Records watsoned: 950
+This ties back in to the illustration with the screw earlier in the text. If you turn in the same direction on different sides of the screw, you will get one side that tightens, and one that loosens. I had a feeling cross product would come up at some point....
+(<class 'requests.exceptions.ConnectionError'>, ConnectionError(MaxRetryError("HTTPSConnectionPool(host='gateway.watsonplatform.net', port=443): Max retries exceeded with url: /tone-analyzer-beta/api/v3/tone?version=2016-02-11 (Caused by NewConnectionError('<requests.packages.urllib3.connection.VerifiedHTTPSConnectionFAEAC610F0>: Failed to establish a new connection: [WinError 10060] A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond',))",),), <tracebackFAE9888288>)
+Yes, this also take direction/orientation into account.
+FAE98CD188>)
+Yes, this also take direction/orientation into account.
+FAE98B5A48>)
+Yes, this also take direction/orientation into account.
+FAE98F12C8>)
+I wonder what it actually means that the torques is perpendicular to the force and radius?
+FAE990C188>)
+The fact that there are no numerical examples here makes this a bit too abstract for me. What would the product of the two vectors look like in vector notation? Would you simply multiply the respective components by each other and write a new vector?
+FAE9888348>)
+This is a good question, but my intuition says that it the Moon wouldn't ever be in the reference frame of the Sun because the Moon's orbit is in correlation to the Earth and not the sun. That being said I believe the Moon has to always be in the reference frame of Earth.
+FAE9824688>)
+In a situation such as the moon revolving around the Earth, is the centripetal acceleration also affected by the fact that the earth is revolving around the sun? Is the centripetal acceleration slightly different because of this double orbit system? I imagine that the moon would also experience some level of centripetal acceleration because of the sun that would slightly alter the motion of the moon. Or perhaps because the moon is relatively closer to the Earth than to the sun, it only experiences centripetal acceleration due to the Earth. 
+FAE8F6C048>)
+But in the reference frame of the sun, does the moon also have an acceleration that points toward the sun?
+FAE98DE248>)
+You're right, this is why the text specifies "nearly" circular. If you read the asterisk at the bottom of the page, it says that Earth's orbit appears to be circular when it is scaled down to something humans can view. The only planet with an orbital path that appears elliptical at this scale is Pluto, and I believe that was one of the criteria that caused it to lose it's status as a planet. 
+FAE990C288>)
+I have to wonder too if things like the tilt of the Earth's axis, or a non-perfect center of mass (is the center of mass of the Earth perfectly in the center of the core?) affect this at all.
+
+Also, perhaps the moon would have an effect when it is between the Earth and the Sun, as it would act on the Earth and push it away from the sun. When the moon is on the outside, it would want the Earth to shift closer to the sun. I'm not sure how large an effect the moon could have on the whole Earth, but it does affect tides, so there is some noticeable action.
+FAE98D2308>)
+Similar motion characteristics apply for bodies moving in elliptical paths. The velocity of the object is directed tangent to the ellipse. The acceleration and force are directed towards the focus of the ellipse. In the case of elliptical paths, there is a component of force in the same direction (or opposite direction as) the motion of the object. Such a component can cause the object to speed up or slow down in addition to changing directions. So unlike circular motion, the elliptical motion of objects is not characterized by a constant speed nor acceleration. 
+FAE98C7888>)
+I am still confused about this, in each case is the object subject to a separate centripetal acceleration? Or is one centripetal acceleration and the other something else?
+FAE98D2F08>)
+I think that these are the same forces, just the sources of the forces are different. The sun is pulling the earth towards its center of gravity. Where as the earth is pulling in objects towards the center of its gravity. Distance from the center and your mass affects how much you are pulled in/influenced by that gravitational pull. The texts also reads in the next few sentences that "In other words, a gravitational attraction between Earth and moon is responsible for the centripetal acceleration of the Moon, just as a gravitational attraction between a terrestrial object and Earth is responsible for the free fall of that object."
+FAE97F7388>)
+Records watsoned: 1000
+I think it would change the distance that it orbited at, but yes also I think there's probably a range of masses that could work for orbiting earth. We just don't see that because anything that's fallen to the surface has become part of our planet.
+FAE97E8BC8>)
+How does the moon have a velocity as well as gravitational force? What keeps the moon in equilibrium rather than coming closer and closer to the Earth? 
+FAEB2985C8>)
+Theoretically what would our weight be if we were stationed in the absolute center of the Earth?  Or even would our weight be lighter if we tunneled underneath a mountain and weighed ourselves there?
+FAE98B5EC8>)
+Records watsoned: 1050
+This sentence has the ability to explain so much of this chapter.  Gravity is omnipresent between all objects, but it is inherently dependent upon mass.  Without a large mass, I mean very large, gravity is not very noticeable.  On top of that, gravity is not a force that "applied", it is just there, but rarely can we take advantage of it.  We need to use two very large objects, so that is what makes the rocket projects so interesting.  If we could harness the force of gravity between two large objects, the ability to do great things would be incalculable 
+FAE98AB9C8>)
+This is similar to the learning catalytic problems we did in class. The amount of work done on the object depends on the system that we define. In the case when the system consists of object 2, work is done on the system because the object is accelerating over a certain distance (delta x), which is consistent with the definition of work, W=Fd. In this case, because the other object is not included in the system, we cannot take into account the gravitational force exerted by m1 on m2. So, work will come entirely from the change in KE. However, in the second case when the system includes both objects, and there is gravitational potential energy. However, because both objects are part of the system, no work is done. 
+FAE9928748>)
+The key difference here is just the type of system. We use the classic PE = mgh equation when we are looking at a system that involves an object resting from a certain height (ex: a boulder atop a cliff). But in this case, we are looking at a two-particle system for which we now have the given equation. 
+FAE97F77C8>)
+The key difference here is just the type of system. We use the classic PE = mgh equation when we are looking at a system that involves an object resting from a certain height (ex: a boulder atop a cliff). But in this case, we are looking at a two-particle system for which we now have the given equation. 
+FAE8EBA1C8>)
+This is a really helpful statement! The object's inertia or tendency to resist change in motion is basically in a "battle" with the restoring force which maintains the oscillation. Like with the cart and the spring, the cart has a tendency to continue its motion to the right, thus its velocity "fights" against the resistance of the spring which gains potential energy and pulls the cart back by acting as a restorative force. The carts inertia in turn results in the compression of the spring, which leads to the storage of all kinetic energy as potential energy that can be used to "force" the cart back to the left.
+FAE98AB4C8>)
+Yes, I agree with this Crissie. It makes complete sense then why there would be a point of stabilization as inertia wears out.
+FAEB2A2C48>)
+If the restoring force accelerates it back toward the equilibrium position does this mean it is unstable?
+FAE9888B88>)
+Records watsoned: 1100
+Yes, you are absolutely right. The mass of an object attacked to a pendulum will not affect the period of the oscillation. For simple harmonic motion, the mass of a pendulum or how much force you apply to plucking a guitar string, will not affect the period of the system. In the guitar string example, the force applied to the string is similar to the mass of the object on the pendulum, both affecting only the amplitude of the system and not the period. 
+FAEB2B3908>)
+Yes, you are absolutely right. The mass of an object attacked to a pendulum will not affect the period of the oscillation. For simple harmonic motion, the mass of a pendulum or how much force you apply to plucking a guitar string, will not affect the period of the system. In the guitar string example, the force applied to the string is similar to the mass of the object on the pendulum, both affecting only the amplitude of the system and not the period. 
+FAE98F1808>)
+Then what is it dependent on? I'm assuming it must be based solely on the length of the pendulum, is that true?
+FAE9923F08>)
+For a pendulum, T = 2pi * (L/g)^1/2 so a) An increase in L should increase the period. b) Decrease in g would increase T. c) The spring's T should be smaller.
+FAE989EFC8>)
+This is important to remember! Angular frequency describes  rotational speed, while frequency describes the number of occurrences of something per unit time.
+FAE98CD808>)
+Correct.
+FAEB2AE208>)
+Figure 15.22 provides an example in terms of visualizing the uniformity in simple harmonic motion. Each position x on the graph will occur twice. Once while amplitude is increasing and the other while amplitude is decreasing, because these two x positions are evenly spaced out, they can also be graphed in terms of a circle. We can further apply this to see what shapes will occur when the graph isn't a uniform sinusodial graph. Although simple harmonic motion will be lost in many of these cases for one example, we would see lopsided ovals if the decline was steeper than the incline.
+FAEB2AE7C8>)
+Here I assume that (omega)(t) is equal to the rotational distance traveled around the reference circle, so once we get this product, if say t is longer than the time taken to complete a full revolution, will we need to divide by 2pi to find out how many revolutions the object has undergone (and then do some further simplification) to find the object's present phi value? It just seems that this equation could potentially leave one with some enormous angles...
+FAE98C7B88>)
+Here I assume that (omega)(t) is equal to the rotational distance traveled around the reference circle, so once we get this product, if say t is longer than the time taken to complete a full revolution, will we need to divide by 2pi to find out how many revolutions the object has undergone (and then do some further simplification) to find the object's present phi value? It just seems that this equation could potentially leave one with some enormous angles...
+FAEB2AE148>)
+Here I assume that (omega)(t) is equal to the rotational distance traveled around the reference circle, so once we get this product, if say t is longer than the time taken to complete a full revolution, will we need to divide by 2pi to find out how many revolutions the object has undergone (and then do some further simplification) to find the object's present phi value? It just seems that this equation could potentially leave one with some enormous angles...
+FAEB2AEDC8>)
+Here I assume that (omega)(t) is equal to the rotational distance traveled around the reference circle, so once we get this product, if say t is longer than the time taken to complete a full revolution, will we need to divide by 2pi to find out how many revolutions the object has undergone (and then do some further simplification) to find the object's present phi value? It just seems that this equation could potentially leave one with some enormous angles...
+FAE97B6A88>)
+Here I assume that (omega)(t) is equal to the rotational distance traveled around the reference circle, so once we get this product, if say t is longer than the time taken to complete a full revolution, will we need to divide by 2pi to find out how many revolutions the object has undergone (and then do some further simplification) to find the object's present phi value? It just seems that this equation could potentially leave one with some enormous angles...
+FAEB2AE6C8>)
+Records watsoned: 1150
+It is basically just the angle at which the phasor rests when you put it in motion and start measuring time. It will be 0 when the phasor starts on the x-axis between quadrants I and IV. 
+
+I hope this helps (I hope it is not just repeating the text only a little differently).
+FAE98F1F88>)
+I'm confused as to what part of the sine function this is finding in regards to fig 15.23. Is this the displacement of the sine function from the first point to the second point? Or the distance of the sine function (line) from the first point to the second point? Thus, if the phase was 90degrees or pi/2, than that would give you the amplitude?
+FAE980D208>)
+If you could find a point where either K or U =0, you would know the value of E. From there, for any K you could figure out U (or vice versa).
+FAEB298048>)
+So is E the energy at any particular point during the oscillation? Is this why E is different than delta E? 
+FAEB291FC8>)
+Rotational inertia?  Is this mass of the disk or something else?
+FAEB2A2E88>)
+Theoretically it seems like yes, and I'd imagine that if you applied the opposite frequency (shifted by 1 T), they would cancel each other out.
+FAEB291108>)
+Records watsoned: 1200
+wow this is very similar to the time constant we see in action potentials in neurons!  very similar equation that now I see is using a very similar concept of "friction" in how voltage dissipates.  Crazy that these concepts carry across different disciplines! 
+FAE9928388>)
+SInce the mechanical energy is decreasing and we know the total energy of the system must be conserved, what form of energy is this converted to? Would it be thermal because it is similar to friction so energy is converted to thermal energy.
+FAE9824F48>)
+I think we'd also need to know the impulse imparted by the hand on the end of the string, but I'm sure we will find out soon.
+FAE987E688>)
+How is there 0 velocity but a positive acceleration?
+FAE988EF48>)
+Is this diagram accurate in the sense that the transmitted pulse has a greater amplitude than the incident pulse? I understand the concept of linear mass density and its effect on wave pulse, as well as the reflections discussed in this section, but I though the chapter previously said that the initial disturbance of the pulse is what determines velocity and acceleration (and thus position).
+FAE98A0C88>)
+Records watsoned: 1250
+I think it is destructive interference (see link below). The waves themselves will eventually be unchanged if you split them back into their various components, but at that snapshot in time, there's enough interference on the sides to make the "summed" wave at that instant appear flat on the sides.
+
+http://en.wikipedia.org/wiki/Interference_(wave_propagation)#Mechanism
+FAE987ED48>)
+I'm really curious about this observation that all of the harmonic waves add up to form the pulse at the center, but add up to nearly zero everywhere else. First of all, why is this surprising, as the textbook writes? Secondly, what is meant by NEARLY zero everywhere else? 
+
+Not even sure where to begin understanding this observation. 
+FAEB2C5848>)
+I'm really curious about this observation that all of the harmonic waves add up to form the pulse at the center, but add up to nearly zero everywhere else. First of all, why is this surprising, as the textbook writes? Secondly, what is meant by NEARLY zero everywhere else? 
+
+Not even sure where to begin understanding this observation. 
+FAE98D2308>)
+Yeah!  My question would be if that tells us that the force we are applying to create the wave is equal to the force of the wall that pushes back on it.  
+FAEB2A0E48>)
+How would the following calculations change if this were a traveling wave? Would this affect the ways in which we identify the nodes and maximum values?
+FAEB2C5308>)
+How would the following calculations change if this were a traveling wave? Would this affect the ways in which we identify the nodes and maximum values?
+FAE97B6848>)
+Records watsoned: 1300
+so the  (linear mass density over the tension times acceleration in the y direction) is equal to what?  what is this quantifying?  the "motion" of segment B?  what does the "motion" mean----displacement or speed or acceleration?  in what units, m/s^2, m?
+FAE8F279C8>)
+Why is this true. For small theta, tan(theta) would be small, thus wouldn't this make a larger difference in calculations? 
+FAE8F24D08>)
+So according to this equation, curvature is directly proportional to acceleration and inversely proportional to the square of propagation velocity. Does that sound like a correct interpretation?
+FAE8EB6E88>)
+So according to this equation, curvature is directly proportional to acceleration and inversely proportional to the square of propagation velocity. Does that sound like a correct interpretation?
+FAE8F2FD08>)
+This reminds of me multivariable calculus when we simply had to remember what the wave equation PDE was-- but here I'm glad it is being put to use.
+FAE8F12708>)
+I believe this means that the motion of the wave only depends on the displacement of the particle along the wave. As opposed to a two-dimentsional wave equation which depends on, not only the position of the particle on the string, but also on the time. A one-dimensional wave equation depends on only position while a two-dimensional equation will depend on position and time. 
+FAE8EBAA48>)
+To some extent, time is taken into consideration with the second derivative of f with respect to t on the right side of the equation. But I think the general idea is that you know the position at a given time, but the motion of the wave does not change as time goes on. Does anyone else have thoughts on this?
+FAE8F2F448>)
+To some extent, time is taken into consideration with the second derivative of f with respect to t on the right side of the equation. But I think the general idea is that you know the position at a given time, but the motion of the wave does not change as time goes on. Does anyone else have thoughts on this?
+FAE8F2FA88>)
+This makes sense! It is exactly like when we looked at parabolas when studying kinematics.
+FAE8E98D48>)
+So, threshold of hearing is comparable to something very very quiet, like a whisper that you can barely hear. 
+FAE8F6C888>)
+Records watsoned: 1350
+Since you're only increasing by 10 dB, you'd need to increase by a factor of 10 -- this would mean 10 clarinets must play at the same time
+FAE97D1848>)
+Ahhh now I see how this is increased. Thank you Cindy.
+
+FAE97F7A08>)
+It is interesting that the frequency of the beat is just the magnitude of the difference between the two wave frequencies.
+FAEB30E9C8>)
+I think the point of this is to show that observed and emitted are independent, and there difference creates what we consider to be the doppler effect
+FAE8F3A148>)
+Agreed. This is intuition, but now we understand that it can be mathematically modeled and calculated!
+FAE8EB6288>)
+I believe this answers my previous question? If the observed frequency is infinite, what does that equate to if the waves are sound waves? 
+FAE98247C8>)
+I don't quite understand this statement. If the speed of the source is the speed of the sound, isn't that just sound? Wouldn't it only require an elastic medium to become a sound then? Also, doesn't sound have a range of frequencies? Thus, what is the "speed" of sound?
+FAE8F1A088>)
+If there is no source, then there is no object to be traveling at the speed of sound. Only when a medium is present can particles be traveling at the speed of sound and therefore generate sound. The speed of sound will vary depending on the medium/elevation/etc but can be generalized on earth. 
+FAE98880C8>)
+Records watsoned: 1400
+Yes, I imagine that's why you don't use a metal table. It's unlikely that the tape would have a greater attraction to any of the items you bring it into contact with than it will with the metal table (assuming the objects are not strong magnets, for example). That's why I think you wouldn't observe the same result if the table was metal.
+FAE8F24C88>)
+I got no difference!
+FAE97D1888>)
+I agree, but perhaps another way to think about it is: since these types of electric interactions are due to the electric force that one of the objects exerts on another object, the interaction depends on the electrical charge of each object (which is an inherent property of the object itself and not of the environment it is in). I.e. a rubber ball in space would still be composed of the same number of protons and electrons as a rubber ball in a classroom, thus both balls would have the same electric charge, and would have the same electric interactions with other objects despite their different settings.   
+FAE97F7C08>)
+Isn't there still contact between the molecules in the air?
+FAE8F6C4C8>)
+I find this funny when I rub my cat's head then touch her ears a static shock occurs. I always wondered what was happening. What was weird was that I could feel the static shock but she didn't show any signs. Why did this happen?
+FAEB2A0E88>)
+I agree, but I also wonder if the object in the center would have any effect on the relative charges of the two objects on either side over time?
+FAE8EB46C8>)
+What is it abut these movements that seems to generate this electrical force on an object?
+FAE97B42C8>)
+Records watsoned: 1450
+If electric force decreases as you increase separation, but static electricity does not require contact, what is the exact relationship between object proximity and static?
+FAEB291F08>)
+If electric force decreases as you increase separation, but static electricity does not require contact, what is the exact relationship between object proximity and static?
+FAEB2A0948>)
+Records watsoned: 1500
+I think this is related to the differing degrees of electron affinity between materials--this confers different electrical properties and would make one material more likely to be positively charged vs. negatively charged.
+
+I would think so based on the bolded part above and to the left.  "Any two dissimilar materials become charged when brought into contact with each other."  However, I would also think that depending on how dissimilar the objects are, the amount of charge would vary.  
+
+I agree, that's really crazy!  I know it was mentioned earlier that there are other mechanisms within the field of quantum mechanics that govern this force and electrostatic attraction.  However given this information on how strong two particles can be, it would be interesting to know what is preventing all electrons and protons to just reorganize themselves and create an infinite collapse.  I think this is what governs black holes?  (which I suppose we also don't know much about...)
+
+Where does all this charge come from? 
+
+Records watsoned: 1550
+With regards to our convention that electric field comes out of the positively-charged particle, it makes it seem like the positive particles are attracted to the negative particle, as opposed to the negative particle being attracted to the positive ones. In other ones, the attraction has a direction. Is this a correct thought? Practically speaking, are there any implications to this observation that I should be thinking about? Right now, I'm guessing that this is a matter of convention and so I'm not considering this as a physical concept. 
+
+With regards to our convention that electric field comes out of the positively-charged particle, it makes it seem like the positive particles are attracted to the negative particle, as opposed to the negative particle being attracted to the positive ones. In other ones, the attraction has a direction. Is this a correct thought? Practically speaking, are there any implications to this observation that I should be thinking about? Right now, I'm guessing that this is a matter of convention and so I'm not considering this as a physical concept. 
+
+With regards to our convention that electric field comes out of the positively-charged particle, it makes it seem like the positive particles are attracted to the negative particle, as opposed to the negative particle being attracted to the positive ones. In other ones, the attraction has a direction. Is this a correct thought? Practically speaking, are there any implications to this observation that I should be thinking about? Right now, I'm guessing that this is a matter of convention and so I'm not considering this as a physical concept. 
+
+This seems to imply that an asymmetric dipole is not possible, if we can define the dipole's charge solely by the charge of its positive portion. Is there a slightly different way to describe an asymmetric two-charge system attached at a fixed distance?
+
+Infinite fields make sense, but at what point are we able to consider the strength of the electric field negligible?
+
+I think it would vary based on how much of a positive/negative charge the source creating the electric field has, in other words, the strength of the electric field.
+
+Records watsoned: 1600
+They ARE actually equal and opposite - it's just that on the top (the dipole), both forces are drawn, while on the bottom (the charged particle), the SUM of the forces is drawn. The sum of the forces on the dipole is drawn in image (c), which makes this a little clearer, but I definitely think they should have drawn both forces on the charged particle in part (b) rather than skipping ahead to the sum.
+
+I think this is an important figure because it shows negative to positive dipole vector convection and the free body diagram where the arrows aren't pointing the the same direction. Then there's the interaction pair diagram which shows the opposites attract principle. Knowing the difference between the three will really help solidify our understanding of dipoles!
+
+Think that we would have needed to read this and the chapter in order to do Problem 2 on the pset.
+
+Wait, this is what we did on Tuesday, right??
+
+Wait, this is what we did on Tuesday, right??
+
+Yes, exactly! Both vector field diagrams and electric field lines come in handy in visualizing electric fields. Electric field lines, though, are easier to read more quickly (as we discovered on Tuesday), because the strength of the electric field is demonstrated by how close the field lines are to each other.
